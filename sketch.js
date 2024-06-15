@@ -18,10 +18,10 @@ bg.scale = 1.3
 
 //creating top and bottom grounds
 bottomGround = createSprite(200,390,800,20);
-
+bottomGround.visible=false
 
 topGround = createSprite(200,10,800,20);
-
+topGround.visible=false
       
 //creating balloon     
 balloon = createSprite(100,200,20,50);
